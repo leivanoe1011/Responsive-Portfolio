@@ -176,14 +176,24 @@ footer {
         background: white;
     }
 
+    .nav {
+        width: 100%;
+    }
+
+    .topnav {
+        width: 100%;
+    }
+
     li a{
-        float: left;
-        display: none;
+        /* float: left; */
+        display: inline;
     }
 
 
     .active {
+        width: 100%;
         font-size: xx-large;
+
         /* display: block; */
     }
 
