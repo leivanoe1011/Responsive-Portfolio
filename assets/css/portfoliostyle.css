@@ -213,3 +213,62 @@ footer {
 
 
 
+
+
+/*******************************************/
+/* Media Query */
+/*******************************************/
+@media only screen and (max-width: 800px) {
+    nav {
+        width: 100%;
+        background: white;
+    }
+
+    li a{
+        float: left;
+        display: none;
+    }
+
+
+    .active {
+        font-size: xx-large;
+        /* display: block; */
+    }
+
+    body {
+        /* height: 700px; */
+        width: 90%;
+    }
+    
+    body main {
+        float: left;
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: none;
+        margin-left: 5%;
+        margin-bottom: 25px;
+        /* margin-right: 10px; */
+        /* max-height: min-content; */
+        /* min-height: calc(10px - 110px - 10px); */
+    }
+
+    main hr {
+        width: 100%;
+    }
+
+    main img {
+        width: 50%;
+    }
+
+    main p {
+        font-size: small;
+    }
+
+    footer {
+        float: left;
+        padding-left: 15%;
+        text-align: left;
+        margin-top: 5px;
+    }
+}
+
