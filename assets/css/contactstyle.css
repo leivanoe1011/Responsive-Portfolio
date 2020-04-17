@@ -244,11 +244,15 @@ footer {
         float: left;
         width: 90%;
         margin-left: 5%;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 50px;
+        margin-bottom: 100px;
         /* margin-right: 10px; */
         max-height: 725px;
         /* min-height: calc(10px - 110px - 10px); */
+    }
+
+    main h2 {
+        margin: 5px 0px 5px 25px
     }
 
     main hr {
@@ -263,9 +267,20 @@ footer {
         font-size: medium;
     }
 
+    form #message {
+        position: relative;
+        min-width: 625px;
+        max-width: 650px;
+        max-height: 200px;
+    }
+
+    #submit {
+        position: relative;
+    }
+
     footer {
         float: left;
-        padding-left: 35%;
+        padding-left: 40%;
         text-align: left;
         margin-top: 5px;
     }
@@ -309,15 +324,23 @@ footer {
         width: 100%;
     }
     
+
     body main {
-        float: left;
-        width: 90%;
+        position: relative;
+        width: 85%;
+        overflow: auto;
         margin-left: 5%;
         margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 100px;
         /* margin-right: 10px; */
-        max-height: 450px;
+        /* max-height: 450px; */
         /* min-height: calc(10px - 110px - 10px); */
+    }
+
+    main h2 {
+        float: left;
+        margin: 0px 0px 15px 10px;
+
     }
 
     main hr {
@@ -331,6 +354,18 @@ footer {
     main p {
         font-size: small;
     }
+
+    form #message {
+        position: relative;
+        min-width: 295px;
+        max-width: 330px;
+        max-height: 200px;
+    }
+
+    #submit {
+        position: relative;
+    }
+
 
     footer {
         float: left;
