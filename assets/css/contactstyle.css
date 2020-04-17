@@ -378,13 +378,13 @@ footer {
     }
     
     body main {
-        float: left;
+        position: relative;
         width: 90%;
         margin-left: 5%;
         margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 100px;
         /* margin-right: 10px; */
-        max-height: 525px;
+        /* max-height: 525px; */
         /* min-height: calc(10px - 110px - 10px); */
     }
 
@@ -399,10 +399,19 @@ footer {
     main p {
         font-size: small;
     }
+    
+    
+    form #message {
+        position: relative;
+        min-width: 295px;
+        max-width: 295px;
+        max-height: 200px;
+    }
+
 
     footer {
         float: left;
-        padding-left: 30%;
+        padding-left: 12%;
         text-align: left;
         margin-top: 5px;
     }
